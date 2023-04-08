@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 
-
 //Addition
 app.get('/add/:num1/:num2', (req, res) => {
     try {
